@@ -60,7 +60,7 @@ public class JDBCConnection {
 			
 			String url = "jdbc:mysql://localhost:3306/human?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
             String id = "human";
-            String pw = "123456";
+            String pw = "12345678";
 			
 			con = DriverManager.getConnection(url,id,pw);
 			
